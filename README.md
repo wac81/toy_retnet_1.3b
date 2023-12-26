@@ -17,7 +17,7 @@ retnet-1.3B-toy is an open source model.
 2. The goal of this repository is to suggest a retnet base training repository, which is recommended to be used for learning research and not for commercial use.
 3. This repository is trained using only wiki text and a small amount of sharegpt/belle instruction dataset.
 4. This release pretrain model with sft fine-tuned model.
-5. This model uses the tokenizer as the first version of the Bacchus Grand model of the disambiguator, which contains a total of 64,000 vocabs.
+5. This model uses the tokenizer as the first version of the BaiChuan model tokenizer, which contains a total of 64,000 vocabs.
 6. known issues:
 - Repeated sentence answers will occur, topk can be adjusted to mitigate the problem.
 - Incomplete answers will occur, you can increase max_new_token to alleviate the problem.
