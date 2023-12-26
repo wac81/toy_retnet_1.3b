@@ -28,16 +28,16 @@ pip install torch transformers
 ```
 
 ## 模型仓库（Model Repo）
-1.基础预训练模型(pretrain model)
+1. 基础预训练模型(pretrain model)
 ([hhttps://huggingface.co/wac81/toy_retnet_1.3b_pretrain](https://huggingface.co/wac81/toy_retnet_1.3b_pretrain))
-2.sft微调后模型(sft model)
+2. sft微调后模型(sft model)
 ([hhttps://huggingface.co/wac81/toy_retnet_1.3b](https://huggingface.co/wac81/toy_retnet_1.3b))
 
 ## 最小需求 (Minimum Requirements)
 
-模型可以完全加载在8GB显卡上，8bit 4bit量化后，理论上可以加载在4GB显卡上
+模型可以完全加载在8GB显卡上，8bit/4bit量化后，理论上可以加载在4GB显卡上
 
-The model can be fully loaded on an 8GB graphics card, and after 8bit 4bit quantization, it can theoretically be loaded on a 4GB graphics card
+The model can be fully loaded on an 8GB graphics card, and after 8bit or 4bit quantization, it can theoretically be loaded on a 4GB graphics card
 
 ## 代码调用 (Code Usage)
 
