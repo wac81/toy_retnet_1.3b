@@ -1,5 +1,5 @@
 ## 介绍 (Introduction)
-retnet-1.3B-toy 是一个开源模型。
+retnet-1.3B-toy 是一个开源模型。主要是为探索模型小型化，测试小数据量训练的最佳效果。
 1.根据retnet论文([https://arxiv.org/pdf/2307.08621.pdf](https://arxiv.org/pdf/2307.08621.pdf))开发并基于transformer文本生成模型。该仓库的算法实现根据repo进行([https://github.com/syncdoth/RetNet.git](https://github.com/syncdoth/RetNet.git))
 2.该仓库目标是建立一个retnet基础训练仓库，建议做学习研究使用，不建议商用。
 2.该仓库只使用wiki文本和少量sharegpt/belle/多轮指令数据集训练而成。包含中英文数据，数据估算占比7:3。
